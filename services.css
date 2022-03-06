@@ -1,0 +1,340 @@
+.services{
+  height:712px;
+  background-color: white;
+}
+.saksham{
+  text-align: center;
+  padding-top: 5vh;
+}
+.weather{
+  height:712px;
+  padding-top: 10vh;
+  /* background-color: #92e978; */
+  background-color: rgb(219, 236, 192);
+}
+.weeeee{
+  font-size: 12vh;
+  padding-bottom: 6vh;
+  color: rgb(51, 51, 51);
+}
+.weeee{
+  font-size:8vh ;
+  padding-bottom: 6vh;
+  color: rgb(51, 51, 51);
+  padding-right: 1vw;
+}
+.weee{
+  font-size: 5vh;
+  color: rgb(51, 51, 51);
+}
+.wee{
+  color: rgb(51, 51, 51);
+  font-size: 5vh;
+  padding-bottom: 5vh;
+}
+.we{
+  text-decoration: none;
+  font-size: 5vh;
+  color: white;
+}
+.wea{
+  color: rgb(51, 51, 51);
+  font-size: 7vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.btn{
+  padding: 0.5rem;
+  border-radius: 2%;
+  color: #92e978;
+  margin-bottom: 5vh;
+}
+.we:hover{
+  color: black;
+}
+.cropSearch{
+  height:850px;
+  background-color: white;
+
+}
+.Thankyou{
+  height:712px;
+  background-image:url('./image/pexels-quang-nguyen-vinh-2131784.jpg');
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+  bottom:20%;
+}
+.Loanlinks{
+  height:534px;
+  background-color: white;
+}
+
+.servicesTitle{
+  font-family: 'Playfair', serif;
+  font-size: 82px;
+  font-weight:bold;
+  text-align: center;
+  position: relative;
+  top:12%;
+
+}
+.servicesHr{
+  width:200px;
+  border: 1px solid black;
+
+  margin: 0 auto;
+  position: relative;
+  top:12.5%;
+  left:1%;
+
+
+}
+.serviceTagline{
+  font-family: 'Playfair', serif;
+  font-size: 48px;
+  font-weight:normal;
+  text-align: center;
+  max-width: 99%;
+  position: relative;
+  top:16%;
+  left:1%;
+  z-index: 1;
+
+}
+.serviceimg{
+  height:10%;
+  overflow: hidden;
+  position: relative;
+  width:100%;
+  z-index: 0;
+  height:50%;
+
+}
+.navybary{
+  text-align: right;
+}
+#navbtitle{
+  position: relative;
+  left:2%;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.searchContent{
+  position: relative;
+  bottom:60%;
+  z-index:1;
+
+}
+.serviceimg1{
+  overflow: hidden;
+  position: relative;
+  width:20%;
+  /*z-index: 0; */
+  height:100%;
+  bottom:68%;
+  z-index: 0;
+
+}
+
+.serviceimg2{
+  overflow: hidden;
+  position: relative;
+  left:59.6%;
+
+  width:20%;
+  /*z-index: 0; */
+  height:100%;
+  position: relative;
+  bottom:68%;
+  z-index: 0;
+
+}
+.CropTitle{
+  font-family: 'Playfair', serif;
+  font-size: 82px;
+  font-weight:bold;
+  text-align: center;
+  position: relative;
+  top:5%;
+  z-index:1;
+}
+.searchbox{
+  margin:0 auto;
+  position: relative;
+  top:16%;
+
+
+  background:transparent;
+  border:3px solid black;
+  height:6%;
+  width:55%;
+  border-radius:40px;
+  outline: none;
+}
+.search{
+  position: relative;
+  width:90%;
+  top:5%;
+  left:3%;
+  border-radius: 31%;
+  outline:transparent;
+  margin: 0 auto;
+  background-color: none;
+  border:none;
+  text-align: center;
+}
+
+.searchicon{
+  height:20px;
+  width:20px;
+  color: white;
+}
+.searchbutton{
+  float:left;
+  position: relative;
+  top:7%;
+  left:3%;
+}
+input.placeholder{
+  text-align:center;
+}
+.brandname{
+  font-size: 36px;
+}
+.nav_bar_content{
+  font-size:20px;
+
+
+}
+.caromarker{
+  position: relative;
+  top:25%;
+  align-items: center;
+  display:block;
+  margin: 0 auto;
+  border:none;
+}
+.cardy{
+  height:190px;
+}
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+.cardmanualedit{
+  height:10%;
+}
+
+.footfallx{
+  position: relative;
+  left:65%;
+  top:20%;
+
+}
+.footfallw1{
+  font-family:Oxygen ,serif;
+  font-weight:bold;
+  font-size:64px;
+  color:white;
+  position: absolute;
+  bottom:60%;
+  left:10%;
+  max-width:50%;
+
+}
+.footfallw1hr{
+  width:10%;
+  border: 5px solid white;
+  color:white;
+}
+
+
+
+.serviceimg3{
+  overflow: hidden;
+  position: relative;
+
+
+  width:60%;
+  height:300%;
+  position: relative;
+  z-index: 0;
+
+}
+
+.serviceimg4{
+  overflow: hidden;
+  position: relative;
+  top:7%;
+  float:right;
+
+
+  width:60%;
+  height:45%;
+
+  z-index: 0;
+
+}
+
+.loancontent{
+  z-index:1;
+}
+
+.loantitle{
+  font-size: 64px;
+  font-family: Oxygen;
+  position: relative;
+  max-width: 50%;
+  top:40%;
+  left:10%;
+  z-index:0;
+}
+.extrahandcontent{
+  font-family: sans-serif;
+  font-size:26px;
+  max-width: 45%;
+  position: relative;
+  left:50%;
+  top:10%;
+}
+.extralinks{
+  text-decoration: none;
+  color:black;
+
+}
+.extralinks:hover{
+  color:blue;
+
+}

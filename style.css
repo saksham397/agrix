@@ -1,0 +1,214 @@
+body{
+    overflow-x: hidden;
+}
+/* complete front page */
+#front-pg{
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* AgriX main heading */
+#heading-main{
+    font-size: 10rem;
+    padding: auto;
+    padding-top: 5rem;
+
+}
+h1.text-white{
+    position: relative;
+    left: 15%;
+}
+
+/* Motto heading */
+h3.text-white{
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
+
+/* front page background image */
+.banner-image {
+    background-image: url('img/banner-img.jpeg');
+    background-size: cover;
+}
+
+/* front page carousel */
+#carouselExampleCaptions{
+    padding: 5% 5% 2%;
+    margin: 2% 2%;
+}
+.carousel-item{
+    text-align: center;
+    font-size: 2rem;
+}
+.quotes-display-button{
+    background-color: grey;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+    border: 0;
+    width: 1.25rem;
+    height: 0.25rem;
+    border-radius: 20%;
+}
+.quotes-display-button:hover{
+    background-color: white;  
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 5% 7%;
+    background-color: #92e978;
+    color: #191919
+}
+.social-icon{
+    margin: 2%;
+}
+.copyright{
+    margin: 2%;
+}
+
+
+
+/* SAKSHAM'S WORK STARTS */
+#main-body{
+    font-family: 'Belgrano', serif;
+}
+/* who are we section */
+.main1{
+    text-align: center;
+    margin: 3% 5%;
+}
+.intro{
+    color: #92e978;
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+    font-size: 8vh;
+    margin: 0;
+}
+.introPara{
+    padding-top: 3%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    padding-bottom: 5%;
+}
+/* services section */
+.main2-subdiv{
+    margin: 3% 5%;
+}
+.main2{
+    background-color: #92e978;
+    text-align: center;
+}
+.intro2{
+    padding-top: 7%;
+    padding-bottom: 4%;
+    font-size: 8vh;
+    color: white;
+}
+.introPara2{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    padding-bottom: 8vh;
+
+}
+/* service button */
+.avail-btn{
+    padding-bottom: 4%;
+}
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #00C897;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: auto;
+}
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.fourth {
+    border-color: #495371;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #A5E1AD 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+    background-position: 0;
+}
+
+
+.button1{
+    text-decoration: none;
+}
+.button1:link{
+    color: #000;
+}
+.button1:visited{
+    color: #fff;
+}
+
+
+
+
+.main3{
+    padding: 5vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    margin: 3% 5%;
+    overflow-x: hidden;
+}
+.intro3{
+    color: #92e978;
+    font-size: 8vh;
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #92e978;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+.card-header{
+    background-color:#92e978;
+    color: white;
+}
+.card-body{
+    color:black;
+}
+
+/* SAKSHAM'S WORK ENDS */
